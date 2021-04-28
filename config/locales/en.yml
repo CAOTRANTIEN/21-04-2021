@@ -31,3 +31,14 @@
 
 en:
   hello: "Hello world"
+  menus:
+    product: Products
+    about: About us
+    news: news
+    contacts: Contacts 
+    accessories: Accessories
+    search: Search   
+  sessions:
+    login: Log in     
+    account: Account
+    password: Password

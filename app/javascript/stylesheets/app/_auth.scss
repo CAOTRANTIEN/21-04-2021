@@ -1,0 +1,8 @@
+.auth {
+  background-color:orangered;
+    &.login {
+      h2 {
+        height: 60px;
+      }
+  }
+}
