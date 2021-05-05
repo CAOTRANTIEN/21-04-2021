@@ -33,12 +33,19 @@ vi:
   hello: "Hello world"
   menus:
     product: Sản Phẩm
-    about us: Giới Thiệu
+    about : Giới Thiệu
     news: Tin Tức
-    contacts: Liên Hệ
     accessories: Phụ Kiện
     search: Tìm Kiếm  
+    link: Liên Kết
   sessions:
     login: Đăng Nhập    
     account: Tài Khoản
     password: Mật Khẩu
+  signups:  
+    signup: Đăng Ký
+    account: Tên Tài Khoản
+    password: Mật Khẩu
+  passwords:
+    forgot: Bạn quên mật khẩu
+    trantien: Gửi cho tôi hướng dẫn đặt lại mật khẩu 

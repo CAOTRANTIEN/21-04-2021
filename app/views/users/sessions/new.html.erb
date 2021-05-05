@@ -1,10 +1,12 @@
-<div class='auth login w-50 p-3 m-auto'>
+<div class='auth login w-50 p-3 m-auto' style ="height:324px;position:absolute; top:50%;margin-top:-170px !important;left:50%;margin-left:-25% !important">
       <h2 class='text-center border-bottom'><%= t('sessions.login') %></h2>
          <div class='row'>
-             <div class='col-sm-6'>
-             <%= render "users/sessions/form" %>
-             <%= render "users/shared/links" %> 
-             </div>
-      <div class='col-sm-6'></div>
+          <div class='col-sm-6'>
+              <%= render "users/sessions/form" %>
+              <%= render "users/shared/links" %> 
+               </div>
+          <div class='col-sm-6'>
+          <i class="fab fa-accessible-icon fa-30x" style='font-size: 15em;'></i>
+               </div>
        </div>
 </div>

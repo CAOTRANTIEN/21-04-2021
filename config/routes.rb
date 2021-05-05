@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  # devise_for :users
+ # devise_for :users
+  resources :accessories
+  resources :products
+  resources :news
+  resources :about
+  resources :search
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     passwords:'users/passwords',

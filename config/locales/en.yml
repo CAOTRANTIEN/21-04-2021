@@ -34,11 +34,18 @@ en:
   menus:
     product: Products
     about: About us
-    news: news
-    contacts: Contacts 
+    news: News
     accessories: Accessories
-    search: Search   
+    search: Search
+    link: Link   
   sessions:
     login: Log in     
     account: Account
     password: Password
+  signups:  
+    signup: Sign Up
+    account: Account
+    password: Password
+  passwords:
+    forgot: forgot your password  
+    trantien: Send me reset password instructions
