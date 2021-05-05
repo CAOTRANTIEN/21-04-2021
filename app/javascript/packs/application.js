@@ -13,3 +13,7 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 import '../stylesheets/application'
+import Splide from '@splidejs/splide'
+document.addEventListener( 'DOMContentLoaded', function () {
+  new Splide( '.splide' ).mount();
+} );

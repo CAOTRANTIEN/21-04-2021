@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
  # devise_for :users
-  resources :accessories
-  resources :products
-  resources :news
-  resources :about
-  resources :search
+  resources :accessories, only: [:index, :show]
+  resources :products, only: [:index, :show]
+  resources :news, only: [:index, :show]
+  resources :about, only: [:index]
+  resources :search, only: [:index, :show]
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     passwords:'users/passwords',
